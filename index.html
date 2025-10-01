@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perto de Mim</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+    <main class="container">
+        <header>
+            <h1>Perto de Mim 📍</h1>
+            <p>Selecione uma categoria para encontrar locais próximos a você.</p>
+        </header>
+
+        <div id="controls">
+            <button data-query="cafe">☕ Cafeterias</button>
+            <button data-query="restaurant">🍽️ Restaurantes</button>
+            <button data-query="park">🌳 Parques</button>
+        </div>
+
+        <div id="results-container">
+            </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

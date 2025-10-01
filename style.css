@@ -1,0 +1,116 @@
+/* --- Estilos Globais e Reset --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7f6; /* Um cinza bem claro */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* --- Layout Principal --- */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* --- Controles e Botões --- */
+#controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espaço entre os botões */
+    flex-wrap: wrap; /* Permite que os botões quebrem a linha em telas pequenas */
+    margin-bottom: 40px;
+}
+
+#controls button {
+    border: none;
+    background-color: #007bff; /* Azul primário */
+    color: white;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#controls button:hover {
+    background-color: #0056b3; /* Azul mais escuro */
+    transform: translateY(-2px); /* Efeito de levantar o botão */
+}
+
+/* --- Container e Itens de Resultado (Cards) --- */
+#results-container {
+    text-align: left;
+}
+
+.place-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.place-item:hover {
+    transform: scale(1.02);
+}
+
+.place-item strong {
+    font-size: 1.2rem;
+    color: #2c3e50;
+}
+
+.place-item a {
+    text-decoration: none;
+    background-color: #28a745; /* Verde para ação positiva */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.place-item a:hover {
+    background-color: #218838; /* Verde mais escuro */
+}
+
+/* --- Animação de Carregamento (Spinner) --- */
+.loader {
+    border: 8px solid #f3f3f3; /* Cinza claro */
+    border-top: 8px solid #007bff; /* Azul */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin: 40px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
