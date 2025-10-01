@@ -5,7 +5,7 @@
 ## Sobre o Projeto
 
 Este é um projeto que desenvolvi para a disciplina de `CODING: MOBILE` do curso de `Analíse e desenvolvimento de sistemas`. A proposta era criar uma aplicação web moderna que demonstrasse o uso de tecnologias e recursos atuais do navegador.
-E claro, com uma ajuda do amigos de todos(IA).
+E claro, com uma ajuda do amigo de todos(IA).
 
 O "Perto de Mim" é um **Progressive Web App (PWA)** simples e funcional que ajuda o usuário a encontrar pontos de interesse, como cafeterias, restaurantes e parques, em sua vizinhança.
 
