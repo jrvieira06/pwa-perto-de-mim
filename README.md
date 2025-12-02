@@ -37,16 +37,7 @@ Para construir este projeto, utilizei as seguintes tecnologias:
   - **Service Worker** para gerenciar o cache e permitir o funcionamento offline básico.
 - **API:** [Overpass API](https://overpass-api.de/) para consultar os dados do [OpenStreetMap](https://www.openstreetmap.org/).
 
-## Como Executar o Projeto
 
-Como este é um projeto front-end puro, não há necessidade de um back-end complexo.
-
-1. Clone este repositório:
-   ```bash
-   git clone [https://github.com/](https://github.com/)[seu-usuario]/[nome-do-repositorio].git
-   ```
-2. Navegue até a pasta do projeto.
-3. Para uma experiência completa e para que a API de Geolocalização funcione corretamente, é necessário rodar o projeto a partir de um servidor local. Recomendo usar a extensão **Live Server** do Visual Studio Code.
 
 
 ---
